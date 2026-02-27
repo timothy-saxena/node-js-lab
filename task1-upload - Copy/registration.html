@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
     <link rel="stylesheet" href="./styles.css">
@@ -10,31 +9,37 @@
 
 <body>
 
-    <div class="page-wrapper">
+    <div class="wrapper">
 
-        <!-- Header Section -->
-        <div class="header-section">
+        <div class="container">
 
             <header class="site-header">
-                <img src="./images/book-icon.png" alt="LOGO" class="logo">
-                <h1>ONLINE BOOKS STORE</h1>
-            </header>
 
+                <img src="./images/book-icon.png" alt="LOGO" class="logo">
+
+                <h1>ONLINE BOOKS STORE</h1>
+
+            </header>
+<!--  -->
             <nav>
                 <table width="100%" align="center" cellpadding="0" cellspacing="2">
                     <tbody align="center" style="font-weight:bold; font-size:18px;">
                         <tr>
                             <td width="20%">
-                                <hr><a href="index.html">Home</a><hr>
+                                <hr><a href="index.html">Home</a>
+                                <hr>
                             </td>
                             <td width="20%">
-                                <hr><a href="login.html">Login</a><hr>
+                                <hr><a href="login.html">Login</a>
+                                <hr>
                             </td>
                             <td width="20%">
-                                <hr><a href="registration.html">Registration</a><hr>
+                                <hr><a href="registration.html">Registration</a>
+                                <hr>
                             </td>
                             <td width="20%">
-                                <hr><a href="cart.html">Cart</a><hr>
+                                <hr><a href="cart.html">Cart</a>
+                                <hr>
                             </td>
                         </tr>
                     </tbody>
@@ -43,12 +48,11 @@
 
         </div>
 
-        <!-- Main Layout -->
-        <div class="layout">
+        <div class="container1">
 
-            <aside class="left-sidebar"></aside>
+            <div class="sidebar1"></div>
 
-            <div class="content-area">
+            <div class="container2">
 
                 <main>
 
@@ -98,11 +102,10 @@
                                 </td>
                             </tr>
 
+
                             <tr>
                                 <td valign="top">Address:*</td>
-                                <td>
-                                    <textarea name="address" rows="3" cols="20"></textarea>
-                                </td>
+                                <td><textarea name="address" rows="3" cols="20"></textarea></td>
                             </tr>
 
                             <tr>
@@ -127,13 +130,14 @@
 
             </div>
 
-            <aside class="right-sidebar"></aside>
+            <div class="sidebar2"></div>
 
         </div>
 
-        <!-- Footer -->
         <footer>
-            <p>(C) 2024 All rights reserved by Online Books Store</p>
+            <p style="color:white;">
+                (C) 2024 All rights reserved by Online Books Store
+            </p>
         </footer>
 
     </div>

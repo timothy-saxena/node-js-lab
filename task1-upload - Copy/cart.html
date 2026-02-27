@@ -1,8 +1,8 @@
 <!DOCTYPE html>
+<!-- CART.html -->
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart</title>
     <link rel="stylesheet" href="./styles.css">
@@ -10,14 +10,16 @@
 
 <body>
 
-    <div class="page-wrapper">
+    <div class="wrapper">
 
-        <!-- Header Section -->
-        <div class="header-section">
+        <div class="container">
 
             <header class="site-header">
+
                 <img src="./images/book-icon.png" alt="LOGO" class="logo">
+
                 <h1>ONLINE BOOKS STORE</h1>
+
             </header>
 
             <nav>
@@ -25,16 +27,20 @@
                     <tbody align="center" style="font-weight:bold; font-size:18px;">
                         <tr>
                             <td width="20%">
-                                <hr><a href="index.html">Home</a><hr>
+                                <hr><a href="index.html">Home</a>
+                                <hr>
                             </td>
                             <td width="20%">
-                                <hr><a href="login.html">Login</a><hr>
+                                <hr><a href="login.html">Login</a>
+                                <hr>
                             </td>
                             <td width="20%">
-                                <hr><a href="registration.html">Registration</a><hr>
+                                <hr><a href="registration.html">Registration</a>
+                                <hr>
                             </td>
                             <td width="20%">
-                                <hr><a href="cart.html">Cart</a><hr>
+                                <hr><a href="cart.html">Cart</a>
+                                <hr>
                             </td>
                         </tr>
                     </tbody>
@@ -43,12 +49,11 @@
 
         </div>
 
-        <!-- Main Layout -->
-        <div class="layout">
+        <div class="container1">
 
-            <aside class="left-sidebar"></aside>
+            <div class="sidebar1"></div>
 
-            <div class="content-area">
+            <div class="container2">
 
                 <main>
 
@@ -79,7 +84,7 @@
                             <td>Rs. 3000/-</td>
                         </tr>
 
-                        <tr>
+                        <tr class="total-row">
                             <td></td>
                             <td><strong>Total Amount:</strong></td>
                             <td><strong>3</strong></td>
@@ -92,13 +97,14 @@
 
             </div>
 
-            <aside class="right-sidebar"></aside>
+            <div class="sidebar2"></div>
 
         </div>
 
-        <!-- Footer -->
         <footer>
-            <p>(C) 2024 All rights reserved by Online Books Store</p>
+            <p style="color:white;">
+                (C) 2024 All rights reserved by Online Books Store
+            </p>
         </footer>
 
     </div>

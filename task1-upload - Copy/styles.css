@@ -1,122 +1,4 @@
-/* =========================
-   1. GLOBAL STYLES
-========================= */
-
 body {
-    font-family: Arial, sans-serif;
-}
-
-/* =========================
-   2. PAGE LAYOUT
-========================= */
-
-.page-wrapper {
-    display: flex;
-    flex-direction: column;
-}
-
-.layout {
-    display: flex;
-}
-
-.content-area {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-.left-sidebar,
-.right-sidebar {
-    width: 10%;
-    background-color: #ffffff;
-}
-
-/* =========================
-   3. HEADER & NAVIGATION
-========================= */
-
-.site-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #000d57;
-    color: white;
-    padding: 10px;
-}
-
-.logo {
-    height: 40px;
-}
-
-nav {
-    padding: 10px;
-}
-
-/* =========================
-   4. MAIN CONTENT
-========================= */
-
-main {
-    background-color: #efefef;
-    padding: 20px;
-}
-
-/* =========================
-   5. BOOK SECTION (INDEX)
-========================= */
-
-.books {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.book-card {
-    width: 200px;
-    background-color: white;
-    padding: 10px;
-    text-align: center;
-}
-
-.book-card img {
-    width: 100%;
-    height: 200px;
-}
-
-.book-card button {
-    background-color: #000d57;
-    color: white;
-    border: none;
-    padding: 5px;
-}
-
-/* =========================
-   6. CART TABLE
-========================= */
-
-.cart-table {
-    width: 70%;
-    margin: auto;
-    border-collapse: collapse;
-}
-
-.cart-table th,
-.cart-table td {
-    padding: 10px;
-    text-align: center;
-}
-
-/* =========================
-   7. FOOTER
-========================= */
-
-footer {
-    background-color: #000d57;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
-/* body {
     font-family: Arial, sans-serif;
 }
 
@@ -230,6 +112,10 @@ footer {
     margin-top: 10px;
 }    
 
+/* =========================
+   CART TABLE STYLING
+========================= */
+
 .cart-table {
     width: 70%;
     margin: 0 auto;
@@ -250,4 +136,3 @@ footer {
 .total-row {
     font-weight: bold;
 }
- */

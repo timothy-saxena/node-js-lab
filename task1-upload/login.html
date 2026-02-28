@@ -1,102 +1,79 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
+    <body>
+        <div class="page-wrapper">
+            <!-- Header Section -->
+            <div class="header-section">
+                <header class="site-header">
+                    <img src="./images/book-icon.png" alt="LOGO" class="logo" />
+                    <h1>ONLINE BOOKS STORE</h1>
+                </header>
 
-<body>
-
-    <div class="page-wrapper">
-
-        <!-- Header Section -->
-        <div class="header-section">
-
-            <header class="site-header">
-                <img src="./images/book-icon.png" alt="LOGO" class="logo">
-                <h1>ONLINE BOOKS STORE</h1>
-            </header>
-
-            <nav>
-                <table width="100%" align="center" cellpadding="0" cellspacing="2">
-                    <tbody align="center" style="font-weight:bold; font-size:18px;">
-                        <tr>
-                            <td width="20%">
-                                <hr><a href="index.html">Home</a><hr>
-                            </td>
-                            <td width="20%">
-                                <hr><a href="login.html">Login</a><hr>
-                            </td>
-                            <td width="20%">
-                                <hr><a href="registration.html">Registration</a><hr>
-                            </td>
-                            <td width="20%">
-                                <hr><a href="cart.html">Cart</a><hr>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </nav>
-
-        </div>
-
-        <!-- Main Layout -->
-        <div class="layout">
-
-            <aside class="left-sidebar"></aside>
-
-            <div class="content-area">
-
-                <main>
-
-                    <h3 style="text-align:center; margin-bottom:20px;">
-                        Login Details
-                    </h3>
-
-                    <form name="f1">
-
-                        <table align="center" cellpadding="10">
-
-                            <tr>
-                                <td>User Name:</td>
-                                <td><input type="text" name="username"></td>
-                            </tr>
-
-                            <tr>
-                                <td>Password:</td>
-                                <td><input type="password" name="password"></td>
-                            </tr>
-
-                            <tr>
-                                <td></td>
-                                <td>
-                                    <input type="submit" value="SUBMIT">
-                                    <input type="reset" value="RESET">
-                                </td>
-                            </tr>
-
-                        </table>
-
-                    </form>
-
-                </main>
-
+                <nav class="navbar">
+                    <ul class="nav-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="registration.html">Registration</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                    </ul>
+                </nav>
             </div>
 
-            <aside class="right-sidebar"></aside>
+            <!-- Main Layout -->
+            <div class="layout">
+                <aside class="left-sidebar"></aside>
 
+                <div class="content-area">
+                    <main>
+                        <h3 style="text-align: center; margin-bottom: 20px">
+                            Login Details
+                        </h3>
+
+                        <form name="f1">
+                            <table align="center" cellpadding="10">
+                                <tr>
+                                    <td>User Name:</td>
+                                    <td>
+                                        <input type="text" name="username" />
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Password:</td>
+                                    <td>
+                                        <input
+                                            type="password"
+                                            name="password"
+                                        />
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <input type="submit" value="SUBMIT" />
+                                        <input type="reset" value="RESET" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </main>
+                </div>
+
+                <aside class="right-sidebar"></aside>
+            </div>
+
+            <!-- Footer -->
+            <footer>
+                <p>(C) 2024 All rights reserved by Online Books Store</p>
+            </footer>
         </div>
-
-        <!-- Footer -->
-        <footer>
-            <p>(C) 2024 All rights reserved by Online Books Store</p>
-        </footer>
-
-    </div>
-
-</body>
-
+    </body>
 </html>

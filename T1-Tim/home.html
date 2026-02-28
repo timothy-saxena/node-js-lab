@@ -1,55 +1,37 @@
-<!doctype html>
-<html lang="en">
-    <!-- 
-page-wrapper
-   ├── header-section
-   ├── layout
-   │     ├── left-sidebar
-   │     ├── content-area
-   │     └── right-sidebar
-   └── footer
-
--->
+<html>
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Home Page</title>
         <link rel="stylesheet" href="./styles.css" />
     </head>
 
     <body>
         <div class="page-wrapper">
-            <!-- Header Section -->
             <div class="header-section">
                 <header class="site-header">
-                    <img src="./images/book-icon.png" alt="LOGO" class="logo" />
-                    <h1>ONLINE BOOKS STORE</h1>
+                    <img src="./images/book-icon.png" alt="logo" class="logo" />
+                    <h1>ONLINE BOOK STORE</h1>
                 </header>
-
                 <nav class="navbar">
                     <ul class="nav-list">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="login.html">Login</a></li>
-                        <li><a href="registration.html">Registration</a></li>
-                        <li><a href="cart.html">Cart</a></li>
+                        <li><a href="home.html"> Home</a></li>
+                        <li><a href="login.html"> Login</a></li>
+                        <li><a href="registration.html"> Registration</a></li>
+                        <li><a href="cart.html"> Cart</a></li>
                     </ul>
                 </nav>
             </div>
-
             <!-- Main Layout -->
             <div class="layout">
                 <aside class="left-sidebar"></aside>
-
                 <div class="content-area">
                     <main>
                         <div class="books">
                             <div class="book-card">
-                                <img src="./images/c-book.png" alt="C Book" />
+                                <img src="./images/c-book.png" />
                                 <p>The C Programming Language</p>
-                                <p>$15.99</p>
+                                <p>$19.99</p>
                                 <button>Add to Cart</button>
                             </div>
-
                             <div class="book-card">
                                 <img
                                     src="./images/java-book.png"
@@ -102,34 +84,7 @@ page-wrapper
 
                 <aside class="right-sidebar"></aside>
             </div>
-
-            <!-- Footer -->
-            <footer>
-                <p>(C) 2024 All rights reserved by Online Books Store</p>
-            </footer>
+            <footer></footer>
         </div>
     </body>
 </html>
-
-<!--             <nav>
-                <table width="100%" align="center" cellpadding="0" cellspacing="2">
-                    <tbody align="center" style="font-weight:bold; font-size:18px;">
-                        <tr>
-                            <td width="20%">
-                                <hr><a href="index.html">Home</a><hr>
-                            </td>
-                            <td width="20%">
-                                <hr><a href="login.html">Login</a><hr>
-                            </td>
-                            <td width="20%">
-                                <hr><a href="registration.html">Registration</a><hr>
-                            </td>
-                            <td width="20%">
-                                <hr><a href="cart.html">Cart</a><hr>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </nav>
-
- -->

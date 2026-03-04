@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Login - Online Book Store</title>
+        <script type="text/javascript">
+            function validateLogin() {
+                var uname = document.f2.username.value;
+                var pwd = document.f2.password.value;
+
+                if (uname == "") {
+                    alert("Please enter username");
+                    document.f2.username.focus();
+                    return false;
+                }
+
+                if (uname.length < 8) {
+                    alert("Username must be at least 8 characters");
+                    document.f2.username.focus();
+                    return false;
+                }
+
+                if (pwd == "") {
+                    alert("Please enter password");
+                    document.f2.password.focus();
+                    return false;
+                }
+
+                if (pwd.length < 6) {
+                    alert("Password must be at least 6 characters");
+                    document.f2.password.focus();
+                    return false;
+                }
+
+                alert("Login successful");
+                return true;
+            }
+        </script>
+    </head>
+
+    <body>
+        <h2>Online Book Store Login</h2>
+        <form name="f2" onsubmit="return validateLogin();">
+            Username:
+            <input type="text" name="username" /><br /><br />
+
+            Password:
+            <input type="password" name="password" /><br /><br />
+
+            <input type="submit" value="Login" />
+            <input type="reset" value="Reset" />
+        </form>
+    </body>
+</html>

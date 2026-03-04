@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Login Page</title>
+
+        <style>
+            body {
+                font-family: Arial;
+                background-color: #f2f2f2;
+            }
+
+            .container {
+                width: 300px;
+                margin: auto;
+                margin-top: 100px;
+                padding: 20px;
+                background: white;
+                border: 1px solid gray;
+            }
+
+            input {
+                width: 100%;
+                padding: 8px;
+                margin-top: 5px;
+                margin-bottom: 10px;
+            }
+
+            button {
+                width: 100%;
+                padding: 10px;
+                background: blue;
+                color: white;
+                border: none;
+            }
+
+            .error {
+                color: red;
+                font-size: 14px;
+            }
+        </style>
+
+        <script>
+            function validate() {
+                var username = document.getElementById("username").value;
+                var password = document.getElementById("password").value;
+
+                var userError = document.getElementById("userError");
+                var passError = document.getElementById("passError");
+
+                userError.innerHTML = "";
+                passError.innerHTML = "";
+
+                if (username == "") {
+                    userError.innerHTML = "Username required";
+                    alert("Enter username");
+                    return false;
+                }
+
+                if (password == "") {
+                    passError.innerHTML = "Password required";
+                    alert("Enter password");
+                    return false;
+                }
+
+                alert("Login Successful");
+            }
+        </script>
+    </head>
+
+    <body>
+        <div class="container">
+            <h2>Login Page</h2>
+
+            <form onsubmit="return validate();">
+                <label>Username</label>
+                <input type="text" id="username" />
+                <div id="userError" class="error"></div>
+
+                <label>Password</label>
+                <input type="password" id="password" />
+                <div id="passError" class="error"></div>
+
+                <button type="submit">Sign In</button>
+
+                <br /><br />
+
+                <a href="register.html">Create New Account</a>
+            </form>
+        </div>
+    </body>
+</html>

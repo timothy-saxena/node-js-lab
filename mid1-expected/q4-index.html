@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Online Supermarket</title>
+
+        <link rel="stylesheet" href="q4-style.css" />
+
+        <script>
+            var total = 0;
+
+            function addItem(price) {
+                total = total + price;
+                alert("Item added! Total = ₹" + total);
+            }
+        </script>
+    </head>
+
+    <body>
+        <header>
+            <h1>FreshMart Supermarket</h1>
+        </header>
+
+        <h2>Product Catalog</h2>
+
+        <div class="grid">
+            <div class="product">
+                <h3>Rice</h3>
+                <p>Price: ₹50</p>
+                <button onclick="addItem(50)">Add Item</button>
+            </div>
+
+            <div class="product">
+                <h3>Milk</h3>
+                <p>Price: ₹30</p>
+                <button onclick="addItem(30)">Add Item</button>
+            </div>
+
+            <div class="product">
+                <h3>Bread</h3>
+                <p>Price: ₹40</p>
+                <button onclick="addItem(40)">Add Item</button>
+            </div>
+
+            <div class="product">
+                <h3>Eggs</h3>
+                <p>Price: ₹60</p>
+                <button onclick="addItem(60)">Add Item</button>
+            </div>
+        </div>
+
+        <br />
+
+        <a href="q-4cart.html">Go To Cart</a>
+
+        <footer>
+            <p>© 2026 FreshMart Supermarket</p>
+        </footer>
+    </body>
+</html>

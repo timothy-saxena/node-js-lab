@@ -15,7 +15,6 @@
 
     <book>
         <title>Java Programming</title>
-        <author>James Gosling</author>
         <price>500</price>
     </book>
 

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<bookstore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="bookstore.xsd">
+
+<book>
+<title>Java Programming</title>
+<author>James Gosling</author>
+<price>500</price>
+</book>
+
+<book>
+<title>Python Basics</title>
+<author>Guido Van Rossum</author>
+<price>450</price>
+</book>
+
+<book>
+<title>Web Development</title>
+<author>John Smith</author>
+<price>550</price>
+</book>
+
+<book>
+<title>Database Systems</title>
+<author>Korth</author>
+<price>600</price>
+</book>
+
+<book>
+<title>Data Structures</title>
+<author>Mark Allen</author>
+<price>520</price>
+</book>
+
+</bookstore>

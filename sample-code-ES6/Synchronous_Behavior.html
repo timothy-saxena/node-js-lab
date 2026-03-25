@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+    <body>
+        <h1>Synchronous Behavior Demo</h1>
+        <script>
+            console.log("First");
+            function longRunningTask() {
+                for (let i = 0; i < 1000000000; i++) {
+                    // time consuming loop
+                }
+                console.log("Second");
+            }
+            longRunningTask();
+            console.log("Third");
+        </script>
+    </body>
+</html>

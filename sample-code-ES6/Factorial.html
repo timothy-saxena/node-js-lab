@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <body>
+        <h2>Calculate Factorial</h2>
+        <input type="number" id="numberInput" placeholder="Enter a number" />
+        <button onclick="handleCalculate()">Calculate</button>
+        <p id="result"></p>
+
+        <script>
+            const calculateFactorial = (n) => {
+                return new Promise((resolve, reject) => {
+                    if (n < 0) {
+                        reject(
+                            "Factorial is not defined for negative numbers.",
+                        );
+                        return;
+                    }
+                    const factorial = (num) => {
+                        if (num === 0 || num === 1) return 1;
+                        return num * factorial(num - 1);
+                    };
+                    resolve(factorial(n));
+                });
+            };
+
+            async function handleCalculate() {
+                const inputField = document.getElementById("numberInput");
+                const resultElement = document.getElementById("result");
+                try {
+                    const n = parseInt(inputField.value);
+                    const result = await calculateFactorial(n);
+                    resultElement.innerText = `Factorial of ${n} is: ${result}`;
+                    resultElement.style.color = "green";
+                } catch (error) {
+                    resultElement.innerText = `Error: ${error}`;
+                    resultElement.style.color = "red";
+                }
+            }
+        </script>
+    </body>
+</html>

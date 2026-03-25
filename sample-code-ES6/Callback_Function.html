@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+    <body>
+        <h2>Callback function is called when we want it</h2>
+        <p>Wait 3 seconds (3000 milliseconds) to see the output</p>
+        <h1 id="demo"></h1>
+        <script>
+            setTimeout(myFunction, 3000);
+            function myFunction() {
+                document.getElementById("demo").innerHTML =
+                    "Welcome students!!";
+            }
+        </script>
+    </body>
+</html>

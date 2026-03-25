@@ -1,0 +1,25 @@
+<html>
+    <body>
+        <script>
+            function product() {
+                let a = parseInt(f1.no1.value);
+                let b = parseInt(f1.no2.value);
+                let mul = (a, b) => a * b;
+                let result = mul(a, b);
+                f1.prod.value = result;
+            }
+        </script>
+        <center>
+            <h3>ES6 Arrow Function</h3>
+            <br />
+            <form name="f1">
+                Enter first number: <input type="text" name="no1" /><br /><br />
+                Enter second number:
+                <input type="text" name="no2" /><br /><br />
+                Product is: <input type="text" name="prod" /><br /><br />
+                <input type="button" value="SUBMIT" onclick="product()" />
+                <input type="button" value="RESET" onclick="f1.reset()" />
+            </form>
+        </center>
+    </body>
+</html>

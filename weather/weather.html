@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Weather App</title>
+
+        <script>
+            const APIKey = "4cac606c2a87c0b26481cdb2f3a46648";
+
+            async function getWeatherInfo() {
+                let inputCity = document
+                    .getElementById("textbox1")
+                    .value.trim();
+
+                if (!inputCity) {
+                    alert("Please enter a city name");
+                    return;
+                }
+
+                const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${inputCity}&units=metric&lang=en&appid=${APIKey}`;
+
+                try {
+                    let response = await fetch(apiUrl);
+                    let data = await response.json();
+
+                    if (data.cod !== 200) {
+                        alert("City not found!");
+                        return;
+                    }
+
+                    let city = data.name;
+                    let maxtemp = data.main.temp_max;
+                    let mintemp = data.main.temp_min;
+                    let windspeed = data.wind.speed;
+                    let desc = data.weather[0].description;
+                    let humidity = data.main.humidity;
+
+                    document.getElementById("cityName").textContent = city;
+                    document.getElementById("maxtemperature").textContent =
+                        `${maxtemp} °C`;
+                    document.getElementById("mintemperature").textContent =
+                        `${mintemp} °C`;
+                    document.getElementById("description").textContent = desc;
+                    document.getElementById("wind").textContent =
+                        `${windspeed} m/s`;
+                    document.getElementById("humidity").textContent =
+                        `${humidity}%`;
+                } catch (error) {
+                    console.log("Error:", error);
+                    alert("Something went wrong!");
+                } finally {
+                    console.log("Execution Completed");
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <h1>Weather App</h1>
+
+        <input type="text" id="textbox1" placeholder="Enter City Name" />
+        <button onclick="getWeatherInfo()">Get Weather Info</button>
+
+        <h2>Weather Updates</h2>
+
+        <div id="weather">
+            <p>City: <label id="cityName"></label></p>
+            <p>Max Temperature: <label id="maxtemperature"></label></p>
+            <p>Min Temperature: <label id="mintemperature"></label></p>
+            <p>Wind Speed: <label id="wind"></label></p>
+            <p>Humidity: <label id="humidity"></label></p>
+            <p>Description: <label id="description"></label></p>
+        </div>
+    </body>
+</html>

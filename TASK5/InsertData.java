@@ -5,7 +5,7 @@ public class InsertData {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/timr4";
         String user = "root";
-        String password = "Dooop#321";
+        String password = "password";
         try {
             Connection con = DriverManager.getConnection(url, user, password);
             System.out.println("Connected to Database");

@@ -1,0 +1,338 @@
+02-Apr-2026 10:24:26.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.116
+02-Apr-2026 10:24:26.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 16 2026 15:05:42 UTC
+02-Apr-2026 10:24:26.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.116.0
+02-Apr-2026 10:24:26.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+02-Apr-2026 10:24:26.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+02-Apr-2026 10:24:26.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Apr-2026 10:24:26.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Eclipse Adoptium\jdk-21.0.9.10-hotspot
+02-Apr-2026 10:24:26.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.9+10-LTS
+02-Apr-2026 10:24:26.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+02-Apr-2026 10:24:26.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116
+02-Apr-2026 10:24:26.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116
+02-Apr-2026 10:24:26.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+02-Apr-2026 10:24:26.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+02-Apr-2026 10:24:26.323 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+02-Apr-2026 10:24:26.323 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+02-Apr-2026 10:24:26.324 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+02-Apr-2026 10:24:26.324 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+02-Apr-2026 10:24:26.324 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Apr-2026 10:24:26.324 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\conf\logging.properties
+02-Apr-2026 10:24:26.324 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Apr-2026 10:24:26.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Apr-2026 10:24:26.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Apr-2026 10:24:26.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+02-Apr-2026 10:24:26.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Apr-2026 10:24:26.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116
+02-Apr-2026 10:24:26.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116
+02-Apr-2026 10:24:26.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\temp
+02-Apr-2026 10:24:26.335 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Eclipse Adoptium\jdk-21.0.9.10-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-21.0.9.10-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Users\Anurodh Saxena\AppData\Local\Programs\Git\cmd;C:\Users\Anurodh Saxena\AppData\Local\Muse Hub\lib;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Users\Anurodh Saxena\AppData\Local\Programs\Python\Launcher\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\Program Files\Java\jdk1.8.0_202\jre\bin\server;C:\Users\Anurodh Saxena\AppData\Local\Microsoft\WindowsApps;C:\msys64\mingw64\bin;C:\Program Files\LLVM\bin;C:\Users\Anurodh Saxena\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Anurodh Saxena\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Program Files\MySQL\MySQL Server 8.0\bin;;.]
+02-Apr-2026 10:24:26.686 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Apr-2026 10:24:26.719 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [640] milliseconds
+02-Apr-2026 10:24:26.785 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Apr-2026 10:24:26.785 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.116]
+02-Apr-2026 10:24:26.794 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\BookStore]
+02-Apr-2026 10:24:27.165 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Apr-2026 10:24:27.226 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\BookStore] has finished in [431] ms
+02-Apr-2026 10:24:27.226 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\docs]
+02-Apr-2026 10:24:27.282 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\docs] has finished in [56] ms
+02-Apr-2026 10:24:27.283 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\examples]
+02-Apr-2026 10:24:27.839 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\examples] has finished in [556] ms
+02-Apr-2026 10:24:27.840 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\Hello]
+02-Apr-2026 10:24:27.879 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\Hello] has finished in [39] ms
+02-Apr-2026 10:24:27.880 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\host-manager]
+02-Apr-2026 10:24:27.935 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\host-manager] has finished in [55] ms
+02-Apr-2026 10:24:27.935 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\manager]
+02-Apr-2026 10:24:27.991 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\manager] has finished in [56] ms
+02-Apr-2026 10:24:27.992 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\ROOT]
+02-Apr-2026 10:24:28.030 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\ROOT] has finished in [38] ms
+02-Apr-2026 10:24:28.034 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Apr-2026 10:24:28.077 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1354] milliseconds
+02-Apr-2026 10:25:38.659 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Hello]
+02-Apr-2026 10:25:38.708 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\HelloWorld]
+02-Apr-2026 10:25:38.808 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\HelloWorld] has finished in [100] ms
+02-Apr-2026 10:32:59.633 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/HelloWorld]
+02-Apr-2026 10:32:59.634 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HelloWorld] has started
+02-Apr-2026 10:32:59.728 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HelloWorld] is completed
+02-Apr-2026 10:33:19.766 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/HelloWorld]
+02-Apr-2026 10:33:19.767 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HelloWorld] has started
+02-Apr-2026 10:33:19.858 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HelloWorld] is completed
+02-Apr-2026 10:33:29.873 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/HelloWorld]
+02-Apr-2026 10:33:29.873 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HelloWorld] has started
+02-Apr-2026 10:33:29.979 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HelloWorld] is completed
+02-Apr-2026 10:33:50.028 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/HelloWorld]
+02-Apr-2026 10:33:50.028 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HelloWorld] has started
+02-Apr-2026 10:33:50.125 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HelloWorld] is completed
+02-Apr-2026 10:34:00.138 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/HelloWorld]
+02-Apr-2026 10:34:00.139 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HelloWorld] has started
+02-Apr-2026 10:34:00.231 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HelloWorld] is completed
+02-Apr-2026 10:34:20.266 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/HelloWorld]
+02-Apr-2026 10:34:20.266 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HelloWorld] has started
+02-Apr-2026 10:34:20.351 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HelloWorld] is completed
+02-Apr-2026 10:48:58.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.116
+02-Apr-2026 10:48:58.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 16 2026 15:05:42 UTC
+02-Apr-2026 10:48:58.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.116.0
+02-Apr-2026 10:48:58.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+02-Apr-2026 10:48:58.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+02-Apr-2026 10:48:58.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Apr-2026 10:48:58.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Eclipse Adoptium\jdk-21.0.9.10-hotspot
+02-Apr-2026 10:48:58.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.9+10-LTS
+02-Apr-2026 10:48:58.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+02-Apr-2026 10:48:58.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116
+02-Apr-2026 10:48:58.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116
+02-Apr-2026 10:48:58.914 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+02-Apr-2026 10:48:58.914 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+02-Apr-2026 10:48:58.914 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+02-Apr-2026 10:48:58.914 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+02-Apr-2026 10:48:58.914 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+02-Apr-2026 10:48:58.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+02-Apr-2026 10:48:58.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Apr-2026 10:48:58.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\conf\logging.properties
+02-Apr-2026 10:48:58.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Apr-2026 10:48:58.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Apr-2026 10:48:58.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Apr-2026 10:48:58.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+02-Apr-2026 10:48:58.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Apr-2026 10:48:58.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116
+02-Apr-2026 10:48:58.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116
+02-Apr-2026 10:48:58.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\temp
+02-Apr-2026 10:48:58.926 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Eclipse Adoptium\jdk-21.0.9.10-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-21.0.9.10-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Users\Anurodh Saxena\AppData\Local\Programs\Git\cmd;C:\Users\Anurodh Saxena\AppData\Local\Muse Hub\lib;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Users\Anurodh Saxena\AppData\Local\Programs\Python\Launcher\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\Program Files\Java\jdk1.8.0_202\jre\bin\server;C:\Users\Anurodh Saxena\AppData\Local\Microsoft\WindowsApps;C:\msys64\mingw64\bin;C:\Program Files\LLVM\bin;C:\Users\Anurodh Saxena\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Anurodh Saxena\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Program Files\MySQL\MySQL Server 8.0\bin;;.]
+02-Apr-2026 10:48:59.213 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Apr-2026 10:48:59.237 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [501] milliseconds
+02-Apr-2026 10:48:59.284 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Apr-2026 10:48:59.284 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.116]
+02-Apr-2026 10:48:59.293 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\BookStore]
+02-Apr-2026 10:48:59.613 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Apr-2026 10:48:59.666 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\BookStore] has finished in [372] ms
+02-Apr-2026 10:48:59.666 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\docs]
+02-Apr-2026 10:48:59.721 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\docs] has finished in [55] ms
+02-Apr-2026 10:48:59.722 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\examples]
+02-Apr-2026 10:49:00.296 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\examples] has finished in [574] ms
+02-Apr-2026 10:49:00.297 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\HelloWorld]
+02-Apr-2026 10:49:00.356 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\HelloWorld] has finished in [58] ms
+02-Apr-2026 10:49:00.356 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\host-manager]
+02-Apr-2026 10:49:00.425 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\host-manager] has finished in [68] ms
+02-Apr-2026 10:49:00.425 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\manager]
+02-Apr-2026 10:49:00.491 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\manager] has finished in [66] ms
+02-Apr-2026 10:49:00.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\ROOT]
+02-Apr-2026 10:49:00.537 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\ROOT] has finished in [45] ms
+02-Apr-2026 10:49:00.542 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Apr-2026 10:49:00.577 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1337] milliseconds
+02-Apr-2026 11:05:42.310 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/HelloWorld]
+02-Apr-2026 11:05:42.311 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HelloWorld] has started
+02-Apr-2026 11:05:42.434 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HelloWorld] is completed
+02-Apr-2026 11:53:35.997 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\TASK7]
+02-Apr-2026 11:53:36.108 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Servlet\apache-tomcat-9.0.116\webapps\TASK7] has finished in [112] ms
+02-Apr-2026 11:54:16.176 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/TASK7]
+02-Apr-2026 11:54:16.177 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/TASK7] has started
+02-Apr-2026 11:54:16.246 SEVERE [Catalina-utility-2] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [1] column [1]
+	org.xml.sax.SAXParseException; systemId: file:/C:/Users/Anurodh%20Saxena/Documents/MGIT/Sem-IV/9.%20Node/TASK7-Servlet/apache-tomcat-9.0.116/webapps/TASK7/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:114)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1246)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:971)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:288)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4395)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3258)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1411)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1386)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1612)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+02-Apr-2026 11:54:16.257 SEVERE [Catalina-utility-2] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at [file:/C:/Users/Anurodh%20Saxena/Documents/MGIT/Sem-IV/9.%20Node/TASK7-Servlet/apache-tomcat-9.0.116/webapps/TASK7/WEB-INF/web.xml]
+	org.xml.sax.SAXParseException; systemId: file:/C:/Users/Anurodh%20Saxena/Documents/MGIT/Sem-IV/9.%20Node/TASK7-Servlet/apache-tomcat-9.0.116/webapps/TASK7/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:114)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1246)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:971)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:288)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4395)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3258)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1411)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1386)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1612)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+02-Apr-2026 11:54:16.258 SEVERE [Catalina-utility-2] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line [1] column [1]
+02-Apr-2026 11:54:16.265 SEVERE [Catalina-utility-2] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+02-Apr-2026 11:54:16.266 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+02-Apr-2026 11:54:16.268 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal Context [/TASK7] startup failed due to previous errors
+02-Apr-2026 11:54:16.273 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/TASK7] is completed
+02-Apr-2026 12:01:17.130 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/TASK7]
+02-Apr-2026 12:01:47.296 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/TASK7]
+02-Apr-2026 12:01:47.297 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/TASK7] has started
+02-Apr-2026 12:01:47.356 SEVERE [Catalina-utility-2] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [1] column [1]
+	org.xml.sax.SAXParseException; systemId: file:/C:/Users/Anurodh%20Saxena/Documents/MGIT/Sem-IV/9.%20Node/TASK7-Servlet/apache-tomcat-9.0.116/webapps/TASK7/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:114)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1246)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:971)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:288)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4395)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3258)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1411)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1386)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1612)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+02-Apr-2026 12:01:47.359 SEVERE [Catalina-utility-2] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at [file:/C:/Users/Anurodh%20Saxena/Documents/MGIT/Sem-IV/9.%20Node/TASK7-Servlet/apache-tomcat-9.0.116/webapps/TASK7/WEB-INF/web.xml]
+	org.xml.sax.SAXParseException; systemId: file:/C:/Users/Anurodh%20Saxena/Documents/MGIT/Sem-IV/9.%20Node/TASK7-Servlet/apache-tomcat-9.0.116/webapps/TASK7/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:114)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1246)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:971)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:288)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4395)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3258)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1411)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1386)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1612)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+02-Apr-2026 12:01:47.360 SEVERE [Catalina-utility-2] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line [1] column [1]
+02-Apr-2026 12:01:47.369 SEVERE [Catalina-utility-2] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+02-Apr-2026 12:01:47.369 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+02-Apr-2026 12:01:47.371 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal Context [/TASK7] startup failed due to previous errors
+02-Apr-2026 12:01:47.378 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/TASK7] is completed
+02-Apr-2026 12:02:07.414 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/TASK7]
+02-Apr-2026 12:02:07.493 SEVERE [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Error during context [/TASK7] restart
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/TASK7]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:404)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1420)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1386)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1612)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+	Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name [HelloWorld]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:2825)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:855)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1509)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1296)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:971)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:288)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4395)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 16 more
+02-Apr-2026 12:02:27.522 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/TASK7]
+02-Apr-2026 12:03:07.689 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/TASK7]
+02-Apr-2026 12:03:07.690 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/TASK7] has started
+02-Apr-2026 12:03:07.805 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/TASK7] is completed
+02-Apr-2026 12:03:17.821 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/TASK7]
+02-Apr-2026 12:03:17.822 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/TASK7] has started
+02-Apr-2026 12:03:17.925 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/TASK7] is completed

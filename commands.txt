@@ -1,0 +1,11 @@
+mysql -u root -p
+
+
+3. Compile the servlet
+
+javac -cp "C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Server-Me\BookStore\src\WebContent\WEB-INF\lib\javax.servlet-api-3.1.0.jar" -d "C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Server-Me\BookStore\src\WebContent\WEB-INF\classes" "C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Server-Me\BookStore\src\HelloServlet.java"
+
+
+4. Deploy to Tomcat
+
+cp -r "C:\Users\Anurodh Saxena\Documents\MGIT\Sem-IV\9. Node\TASK7-Server-Me\BookStore\src\WebContent" "C:\Users\Anurodh Saxena\Downloads\apache-tomcat-9.0.116\apache-tomcat-9.0.16\webapps\BookStore"

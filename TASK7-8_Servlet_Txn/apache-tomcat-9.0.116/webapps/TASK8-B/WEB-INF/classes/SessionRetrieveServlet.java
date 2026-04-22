@@ -31,3 +31,60 @@ public class SessionRetrieveServlet extends HttpServlet {
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+###########################
+import java.io.*;
+import javax.servlet.*;
+import javax.servlet.http.*;
+
+public class SessionRetrieveServlet extends HttpServlet {
+
+    protected void doGet(HttpServletRequest q, HttpServletResponse s)
+            throws IOException {
+
+        s.setContentType("text/html;charset=UTF-8");
+        PrintWriter o = s.getWriter();
+
+        HttpSession ss = q.getSession(false);
+
+        if (ss != null) {
+
+            String u = (String) ss.getAttribute("uname");
+            String p = (String) ss.getAttribute("pwd");
+
+            if (u != null && p != null) {
+                o.println("<h2>Welcome " + u + "</h2>");
+                o.println("<h3>Password: " + p + "</h3>");
+                o.println("<a href='LogoutServlet'>Logout</a>");
+            } else
+                o.println("<h3>Session exists but data missing</h3>");
+
+        } else
+            o.println("<h3>No session found. Please login first.</h3>");
+    }
+} */

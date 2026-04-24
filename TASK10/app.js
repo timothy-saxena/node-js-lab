@@ -9,15 +9,15 @@ const p = m
         host: "127.0.0.1",
         user: "root",
         password: "password",
-        database: " ",
-        port: 3307,
+        database: "college_db_5R4",
+        port: 3306,
     })
     .promise();
 
 // READ
-a.get("/studentdetails", async (q, s) => {
+a.get("/studentdetails_5R4", async (q, s) => {
     try {
-        const [r] = await p.query("SELECT * FROM studentdetails");
+        const [r] = await p.query("SELECT * FROM studentdetails_5R4");
         s.json(r);
     } catch (er) {
         s.status(500).json({ message: er.message });
@@ -25,11 +25,11 @@ a.get("/studentdetails", async (q, s) => {
 });
 
 // CREATE
-a.post("/studentdetails", async (q, s) => {
+a.post("/studentdetails_5R4", async (q, s) => {
     const { name, course } = q.body;
     try {
         const [r] = await p.execute(
-            "INSERT INTO studentdetails (name,course) VALUES (?,?)",
+            "INSERT INTO studentdetails_5R4 (name,course) VALUES (?,?)",
             [name, course],
         );
         s.status(201).json({ id: r.insertId, name, course });
@@ -39,12 +39,12 @@ a.post("/studentdetails", async (q, s) => {
 });
 
 // UPDATE
-a.put("/studentdetails/:id", async (q, s) => {
+a.put("/studentdetails_5R4/:id", async (q, s) => {
     const { id } = q.params;
     const { name, course } = q.body;
     try {
         const [r] = await p.execute(
-            "UPDATE studentdetails SET name=?,course=? WHERE id=?",
+            "UPDATE studentdetails_5R4 SET name=?,course=? WHERE id=?",
             [name, course, id],
         );
         if (r.affectedRows === 0)
@@ -57,12 +57,13 @@ a.put("/studentdetails/:id", async (q, s) => {
 });
 
 // DELETE
-a.delete("/studentdetails/:id", async (q, s) => {
+a.delete("/studentdetails_5R4/:id", async (q, s) => {
     const { id } = q.params;
     try {
-        const [r] = await p.execute("DELETE FROM studentdetails WHERE id=?", [
-            id,
-        ]);
+        const [r] = await p.execute(
+            "DELETE FROM studentdetails_5R4 WHERE id=?",
+            [id],
+        );
         if (r.affectedRows === 0)
             return s.status(404).json({ message: "Student not found" });
 

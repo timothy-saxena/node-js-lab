@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as R, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Register from "./pages/Register";
@@ -9,21 +9,21 @@ import Contact from "./pages/Contact";
 
 function App() {
     return (
-        <R>
-            <nav style={{ padding: "10px", background: "#333", color: "#fff" }}>
-                <Link to="/" style={{ color: "#fff", margin: "10px" }}>
+        <Router>
+            <nav style={{ padding: "10px", background: "black" }}>
+                <Link to="/" style={linkStyle}>
                     Home
                 </Link>
-                <Link to="/register" style={{ color: "#fff", margin: "10px" }}>
+                <Link to="/register" style={linkStyle}>
                     Register
                 </Link>
-                <Link to="/login" style={{ color: "#fff", margin: "10px" }}>
+                <Link to="/login" style={linkStyle}>
                     Login
                 </Link>
-                <Link to="/about" style={{ color: "#fff", margin: "10px" }}>
+                <Link to="/about" style={linkStyle}>
                     About
                 </Link>
-                <Link to="/contact" style={{ color: "#fff", margin: "10px" }}>
+                <Link to="/contact" style={linkStyle}>
                     Contact
                 </Link>
             </nav>
@@ -35,8 +35,14 @@ function App() {
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
             </Routes>
-        </R>
+        </Router>
     );
 }
+
+const linkStyle = {
+    color: "white",
+    margin: "10px",
+    textDecoration: "none",
+};
 
 export default App;

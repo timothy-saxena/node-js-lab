@@ -1,5 +1,5 @@
 mysql -u root -p
-
+system cls
 
 3. Compile the servlet
 

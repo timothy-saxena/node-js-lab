@@ -1,4 +1,4 @@
-import os, { freemem } from "os";
+/* import os from "os";
 let currentOS = {
     name: os.type(),
     architecture: os.arch(),
@@ -9,3 +9,14 @@ let currentOS = {
 };
 console.log("Details of OS");
 console.log(currentOS);
+ */
+
+import os from "os";
+
+let myOS = {
+    type: os.type(),
+    arch: os.arch(),
+    release: os.release(),
+    freemem: os.freemem() / 1024 ** 3 + "GB",
+};
+console.log(myOS);

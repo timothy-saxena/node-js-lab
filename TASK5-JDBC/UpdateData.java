@@ -39,6 +39,7 @@ public class UpdateData {
             } else {
                 System.out.println("No record found with ID: " + sid);
             }
+            sc.close();
         } catch (SQLException e) {
             System.out.println("Error: " + e);
         }

@@ -48,7 +48,7 @@ app.post("/login", (req, res) => {
     res.status(401).json({ message: "Invalid Credentials" });
 });
 
-// GET
+// GET  OR READ
 app.get("/s_details", auth, async (req, res) => {
     try {
         let [r] = await db.query("SELECT * FROM s_details");

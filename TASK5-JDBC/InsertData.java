@@ -39,6 +39,7 @@ public class InsertData {
             } else {
                 System.out.println("Record insertion failed.");
             }
+            sc.close();
         } catch (SQLException e) {
             System.out.println("Error: " + e);
         }

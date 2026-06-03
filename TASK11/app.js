@@ -75,7 +75,7 @@ app.post("/s_details", auth, async (req, res) => {
 });
 
 // PUT
-app.put("/s_details/:id", auth, async (req, res) => {
+app.put("/s_details/:id", auth,      (req, res) => {
     let { id } = req.params;
     let { name, course } = req.body;
 

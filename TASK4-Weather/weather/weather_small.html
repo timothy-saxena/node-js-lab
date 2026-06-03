@@ -32,3 +32,29 @@
         </script>
     </body>
 </html>
+
+<!-- <html>
+    <head>
+        Weather App
+    </head>
+    <body>
+        <h1>Weather App</h1>
+        <input type="text" id="city" placeholder="Enter City name" />
+        <button onclick="weather()">Get Weather Info</button>
+        <h3 id="ans"></h3>
+        <script>
+            const api_key = "4cac606c2a87c0b26481cdb2f3a46648";
+            async function weather() {
+                let city = document.getElementById("city").value;
+                let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${api_key}`;
+                let response = await fetch(url);
+                let data = await response.json();
+                document.getElementById("ans").innerHTML = `
+                    city: ${data.name},
+                    temp: ${data.main.temp}
+                `;
+            }
+        </script>
+    </body>
+</html>
+ -->

@@ -12,7 +12,7 @@ const db = m
         database: "node_exam",
         port: 3306,
     })
-    .promise();
+    .promise(); 
 
 app.get("/student", async (req, res) => {
     try {

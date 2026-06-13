@@ -1,6 +1,6 @@
+//DeleteData.java
 import java.sql.*;
 import java.util.Scanner;
-
 public class DeleteData {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/timr4";

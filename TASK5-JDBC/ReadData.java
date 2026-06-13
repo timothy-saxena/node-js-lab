@@ -1,5 +1,5 @@
+//ReadData.java
 import java.sql.*;
-
 public class ReadData {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/timr4";

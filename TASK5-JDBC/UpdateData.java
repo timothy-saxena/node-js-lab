@@ -1,6 +1,6 @@
+//UpdateData.java
 import java.sql.*;
 import java.util.Scanner;
-
 public class UpdateData {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/timr4";

@@ -1,0 +1,44 @@
+Set 5
+1.Create employee with self-referencing managerid.
+2.add no null to the empname.
+3.insert the records in the employee 
+4.update the salary 5000 .
+5.salary <20000.
+6.add the DOJ column.
+7.drop the managerid.
+8.salary >60000.
+
+
+5:a. Set Operators
+ONLINE: ID, NAME
+OFFLINE: ID, NAME
+
+1. Retrieve all customer names using UNION.
+2. Retrieve all names including duplicates using UNION ALL.
+3. Find common names using INTERSECT.
+4. Find names present in ONLINE but not in OFFLINE using MINUS.
+
+
+4a)Aggregate functions
+Table:student
+Fields:id,name,marks,dept
+1.display the student details whose dept is not cse.
+2.display the student details marks between 70 and 90.
+3.display the students whose name is exactly 4 characters. 
+4.display the students whose dept is not (it and  mech).
+
+2a)checking integrity constraints 
+Table:account
+Fields:acc_no,holder name,balance,acc_type.
+1)acc_no is primary key and balance should be greater than 0(check constraint).
+2)primary key integrity violation. 
+3)balance negative 
+4)add unique constraints for holder name.
+
+1a)creating and inserting
+Table: student
+Fields:roll_no,name,age,gender,marks
+1)create a table with rollno as primary key ,name,age,gender,marks.
+2)insert atleast four records 
+3)insert a record which specifies only rollno, name and marks. 
+4)display all the records

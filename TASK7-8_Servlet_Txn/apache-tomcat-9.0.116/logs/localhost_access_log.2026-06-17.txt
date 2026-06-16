@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [17/Jun/2026:04:29:10 +0530] "GET /registration.html HTTP/1.1" 404 769
+0:0:0:0:0:0:0:1 - - [17/Jun/2026:04:29:10 +0530] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [17/Jun/2026:04:29:20 +0530] "GET /TASK7/registration.html HTTP/1.1" 200 762
+0:0:0:0:0:0:0:1 - - [17/Jun/2026:04:29:41 +0530] "POST /TASK7/RegisterServlet HTTP/1.1" 200 35

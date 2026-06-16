@@ -10,9 +10,20 @@ console.log("Location:", __dirname);
 
 
  */
-import path from "path";
+/* import path from "path";
 
 const myFILEpath = "C:\\Users\\Anurodh Saxena\\Documents\\MGIT\\atten.html";
 
 console.log("file name: " + path.basename(myFILEpath));
 console.log("ext name: " + path.extname(myFILEpath));
+ */
+
+import path from "path";
+
+const myFILEpath = "C:\\Users\\Anurodh Saxena\\Documents\\MGIT\\atten.html";
+
+console.log("File Name:", path.basename(myFILEpath));
+console.log("Extension:", path.extname(myFILEpath));
+console.log("Directory:", path.dirname(myFILEpath));
+console.log("Is Absolute:", path.isAbsolute(myFILEpath));
+console.log("Parsed Object:", path.parse(myFILEpath));

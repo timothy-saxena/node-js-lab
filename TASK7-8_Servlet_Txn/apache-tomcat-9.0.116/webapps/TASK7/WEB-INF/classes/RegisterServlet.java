@@ -21,16 +21,13 @@ public class RegisterServlet extends HttpServlet {
         String pwd = "password";
 
         try {
-            // ✅ Correct driver
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             Connection con = DriverManager.getConnection(url, user, pwd);
 
-            // ✅ SQL matches form fields
             String sql = "INSERT INTO students(name, password, email, contact) VALUES (?, ?, ?, ?)";
             PreparedStatement ps = con.prepareStatement(sql);
 
-            // ✅ Use form data (NOT Scanner)
             ps.setString(1, name);
             ps.setString(2, password);
             ps.setString(3, email);

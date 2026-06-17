@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Login Page</title>
+
+        <style>
+            body {
+                font-family: Arial;
+                text-align: center;
+                margin-top: 100px;
+            }
+
+            input {
+                width: 250px;
+                padding: 8px;
+                margin-top: 5px;
+            }
+
+            button {
+                padding: 8px 20px;
+                margin-top: 10px;
+            }
+
+            .error {
+                color: red;
+                font-size: 14px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h2>Login Page</h2>
+
+        <form onsubmit="return validateForm();">
+            Username:<br />
+            <input type="text" id="username" />
+            <div id="userError" class="error"></div>
+
+            <br /><br />
+
+            Password:<br />
+            <input type="password" id="password" />
+            <div id="passError" class="error"></div>
+
+            <br />
+
+            <button type="submit">Sign In</button>
+        </form>
+
+        <br />
+
+        <a href="#">Create New Account</a>
+
+        <script>
+            function validateForm() {
+                let username = document.getElementById("username").value;
+                let password = document.getElementById("password").value;
+
+                document.getElementById("userError").innerHTML = "";
+                document.getElementById("passError").innerHTML = "";
+
+                let valid = true;
+
+                if (username == "") {
+                    document.getElementById("userError").innerHTML =
+                        "Username is required";
+                    valid = false;
+                }
+
+                if (password == "") {
+                    document.getElementById("passError").innerHTML =
+                        "Password is required";
+                    valid = false;
+                }
+
+                if (!valid) {
+                    alert("Please fill all fields");
+                }
+
+                return valid;
+            }
+        </script>
+    </body>
+</html>

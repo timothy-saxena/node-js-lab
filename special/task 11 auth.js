@@ -1,5 +1,5 @@
-task 11 auth
-/* 
+/* task 11 auth
+ */ /* 
     npm init -y
     npm install express mysql2 jsonwebtoken
     node app.js
@@ -11,6 +11,14 @@ task 11 auth
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100),
     course VARCHAR(100)
+
+
+http://localhost:3000/login
+{
+    "username": "admin",
+    "password": "password123"
+}
+
 );
 
 */
@@ -34,22 +42,18 @@ const db = m
     .promise();
 
 // middleware
-const auth = (req, res, next) => {
-    let t = req.headers["authorization"];
-    t = t && t.split(" ")[1];
-    if (!t)
-        return res
-            .status(401)
-            .json({ message: "Access Denied: No Token Provided" });
 
-    j.verify(t, K, (err, u) => {
-        if (err)
-            return res
-                .status(403)
-                .json({ message: "Invalid or Expired Token" });
-        req.user = u;
+const auth = (req, res, next) => {
+    const t = req.headers.authorization?.split(" ")[1];
+
+    if (!t) return res.status(401).json({ message: "No Token" });
+
+    try {
+        req.user = j.verify(t, K);
         next();
-    });
+    } catch {
+        res.status(403).json({ message: "Invalid Token" });
+    }
 };
 
 // login
@@ -91,7 +95,7 @@ app.post("/s_details", auth, async (req, res) => {
 });
 
 // PUT
-app.put("/s_details/:id", auth,      (req, res) => {
+app.put("/s_details/:id", auth, async (req, res) => {
     let { id } = req.params;
     let { name, course } = req.body;
 
@@ -127,3 +131,21 @@ app.delete("/s_details/:id", auth, async (req, res) => {
 });
 
 app.listen(3000, () => console.log("Server running on port 3000"));
+/* const auth = (req, res, next) => {
+    let t = req.headers["authorization"];
+    t = t && t.split(" ")[1];
+    if (!t)
+        return res
+            .status(401)
+            .json({ message: "Access Denied: No Token Provided" });
+
+    j.verify(t, K, (err, u) => {
+        if (err)
+            return res
+                .status(403)
+                .json({ message: "Invalid or Expired Token" });
+        req.user = u;
+        next();
+    });
+};
+ */

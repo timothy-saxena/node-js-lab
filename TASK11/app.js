@@ -18,7 +18,7 @@ const db = m
     .promise();
 
 // middleware
-const auth = (req, res, next) => {
+/* const auth = (req, res, next) => {
     let t = req.headers["authorization"];
     t = t && t.split(" ")[1];
     if (!t)
@@ -34,6 +34,19 @@ const auth = (req, res, next) => {
         req.user = u;
         next();
     });
+};
+ */
+const auth = (req, res, next) => {
+    const t = req.headers.authorization?.split(" ")[1];
+
+    if (!t) return res.status(401).json({ message: "No Token" });
+
+    try {
+        req.user = j.verify(t, K);
+        next();
+    } catch {
+        res.status(403).json({ message: "Invalid Token" });
+    }
 };
 
 // login
@@ -75,7 +88,7 @@ app.post("/s_details", auth, async (req, res) => {
 });
 
 // PUT
-app.put("/s_details/:id", auth,      (req, res) => {
+app.put("/s_details/:id", auth, async (req, res) => {
     let { id } = req.params;
     let { name, course } = req.body;
 
